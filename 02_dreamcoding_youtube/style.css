@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 12px;
+  background-color: black;
+  align-items: center;
+}
+
+header .home a {
+  color: white;
+}
+
+header .home i {
+  color: red;
+}
+
+header ul {
+  display: flex;
+  color: white;
+}
+
+header ul li {
+  padding: 8px;
+}
+video {
+  height: 400px;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main .tag {
+  padding: 8px;
+}
+
+.main .title {
+  padding: 8px;
+  font-size: 28px;
+}
+
+.main .day {
+  padding: 8px;
+}
+
+.icons {
+  padding: 24px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.publisher {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 12px;
+}
+
+.publisher .left a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.publisher .left img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+}
+
+.others li {
+  padding: 12px;
+  display: flex;
+}
+
+.others img {
+  min-width: 240px;
+  height: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    flex-direction: row;
+  }
+}
